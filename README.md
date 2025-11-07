@@ -1,2 +1,4 @@
 # OSHA-Hand-Injury-Analysis
-Hackathon Project: Analyzed OSHA data using Geospatial, Time Series, and NLP to find causes of hand injuries
+Data Whiz Hackathon Project: Analyzed OSHA injury data—applying geospatial, time-series, and NLP— creating visualizations that revealed critical injury trends, causation patterns, and key risk factors. 
+
+
