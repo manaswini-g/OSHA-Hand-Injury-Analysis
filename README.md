@@ -44,6 +44,7 @@ This multi-faceted analysis uncovered clear, actionable patterns. The NLP analys
 
 This project was broken into three main analytical components.
 
+
 ### 1. Natural Language Processing (NLP) - The "How"
 
 The "Final Narrative" (incident description) field was analyzed using NLP to extract themes and actions. This directly answers the core problem statement.
@@ -60,14 +61,14 @@ The LDA model identified 5 clear injury scenarios. Topics 3 and 4 were the most 
 #### Action Verb Analysis
 Extracting the most common verbs from injury reports reveals *how* the injury occurred. The data shows injuries are linked to specific actions like "pulling," "removing," or "operating."
 
-![Action Verb Bar Chart](visualizations/action-verb-barchart.png.png)
+![Action Verb Bar Chart](visualizations/action-verb-barchart.png)
 
 #### Keyword & Co-Occurrence Analysis
 TF-IDF and network graphs revealed the key objects and body parts.
 * **Key Keywords:** `finger`, `hand`, `machine`, `caught`, `amputate`, `conveyor`, `roller`, `blade`.
 * **Co-Occurrence:** The network graph shows a strong link between "finger" and "caught," and "machine" and "amputation."
 
-![Co-occurrence Network](visualizations/co-occurrence.png.png)
+![Co-occurrence Network](visualizations/co-occurrence.png)
 
 ### 2. Time Series Analysis - The "When"
 
@@ -113,22 +114,6 @@ To allow for full reproducibility, the final, cleaned dataset used by the analys
 ---
 
 
-
-### How to Reproduce
-
-1.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/your-username/OSHA-Hand-Injury-Analysis.git](https://github.com/your-username/OSHA-Hand-Injury-Analysis.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Get the data:**
-    * **Download the cleaned data file** from the link in the "Data Setup" section above.
-    * Place the downloaded `.csv` file into the `/data/` folder.
-4.  **Run the analysis:**
-    * Open and run the `code/Hand_Injury_Analysis.ipynb` notebook.
 
 ---
 
