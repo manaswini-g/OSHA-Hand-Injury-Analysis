@@ -45,7 +45,7 @@ This multi-faceted analysis uncovered clear, actionable patterns. The NLP analys
 This project was broken into three main analytical components.
 
 
-### 1. Natural Language Processing (NLP) - The "How"
+### 1. Natural Language Processing (NLP) 
 
 The "Final Narrative" (incident description) field was analyzed using NLP to extract themes and actions. This directly answers the core problem statement.
 
@@ -61,14 +61,14 @@ The LDA model identified 5 clear injury scenarios. Topics 3 and 4 were the most 
 #### Action Verb Analysis
 Extracting the most common verbs from injury reports reveals *how* the injury occurred. The data shows injuries are linked to specific actions like "pulling," "removing," or "operating."
 
-![Action Verb Bar Chart](visualizations/action-verb-barchart.png)
+![Action Verb Bar Chart](Visualizations/action-verb-barchart.png)
 
 #### Keyword & Co-Occurrence Analysis
 TF-IDF and network graphs revealed the key objects and body parts.
 * **Key Keywords:** `finger`, `hand`, `machine`, `caught`, `amputate`, `conveyor`, `roller`, `blade`.
 * **Co-Occurrence:** The network graph shows a strong link between "finger" and "caught," and "machine" and "amputation."
 
-![Co-occurrence Network](visualizations/co-occurrence.png)
+![Co-occurrence Network](Visualizations/co-occurrence.png)
 
 ### 2. Time Series Analysis - The "When"
 
