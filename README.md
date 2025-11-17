@@ -68,7 +68,6 @@ TF-IDF and network graphs revealed the key objects and body parts.
 * **Key Keywords:** `finger`, `hand`, `machine`, `caught`, `amputate`, `conveyor`, `roller`, `blade`.
 * **Co-Occurrence:** The network graph shows a strong link between "finger" and "caught," and "machine" and "amputation."
 
-![Co-occurrence Network](Visualizations/co-occurrence.png)
 
 ### 2. Time Series Analysis - The "When"
 
@@ -76,11 +75,11 @@ Analyzing the incident date revealed clear temporal patterns.
 
 #### Trend and Seasonality
 The plot shows a long-term trend (peaking 2020-2021) and a clear seasonal pattern.
-![Time Series Plot](visualizations/time-series-plot.png,png)
+![Time Series Plot](Visualizations/time-series-plot.png,png)
 
 #### Seasonal Heatmap
 This heatmap confirms that injuries consistently peak in the summer months (June-August) and dip in the winter (December-February), likely due to holiday shutdowns.
-![Seasonal Heatmap](visualizations/seasonal-heatmap.png.png)
+![Seasonal Heatmap](Visualizations/seasonal-heatmap.png.png)
 
 ### 3. Geospatial Analysis - The "Where"
 
@@ -91,14 +90,14 @@ The heatmap clearly visualizes the density of incidents, highlighting major indu
 
 * **See a static preview below. For the full interactive map, [click here](interactive-visuals/Injury_Heatmap.html).**
 
-![Geo Heatmap Screenshot](visualizations/geo-heatmap.png)
+![Geo Heatmap Screenshot](Visualizations/geo-heatmap.png)
 
 #### Injury Clusters
 A cluster map groups nearby incidents to show distinct zones of high activity.
 
 * **See a static preview below. For the full interactive map, [click here](interactive-visuals/Injury_Clusters.html).**
 
-![Geo Cluster Screenshot](visualizations/geo-clusters.png)
+![Geo Cluster Screenshot](Visualizations/geo-clusters.png)
 
 
 
