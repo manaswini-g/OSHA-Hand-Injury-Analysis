@@ -75,11 +75,12 @@ Analyzing the incident date revealed clear temporal patterns.
 
 #### Trend and Seasonality
 The plot shows a long-term trend (peaking 2020-2021) and a clear seasonal pattern.
-![Time Series Plot](Visualizations/time-series-plot.png,png)
+![Time Series Plot](Visualizations/time-series-plot.png)
 
 #### Seasonal Heatmap
 This heatmap confirms that injuries consistently peak in the summer months (June-August) and dip in the winter (December-February), likely due to holiday shutdowns.
-![Seasonal Heatmap](Visualizations/seasonal-heatmap.png.png)
+![Seasonal Heatmap](Visualizations/seasonal-heatmap.png)
+
 
 ### 3. Geospatial Analysis - The "Where"
 
@@ -88,14 +89,14 @@ Using latitude and longitude, I mapped the incidents to find geographic hotspots
 #### Injury Heatmap
 The heatmap clearly visualizes the density of incidents, highlighting major industrial regions.
 
-* **See a static preview below. For the full interactive map, [click here](interactive-visuals/Injury_Heatmap.html).**
+* **See a static preview below. For the full interactive map, [click here](https://drive.google.com/file/d/1X23puyCHPG71TgjV2YEICahr4Fl-aMTe/view?usp=sharing).**
 
-![Geo Heatmap Screenshot](Visualizations/geo-heatmap.png)
+![Geo Heatmap Screenshot](Visualizations/injury-heatmap-screenshot.png)
 
 #### Injury Clusters
 A cluster map groups nearby incidents to show distinct zones of high activity.
 
-* **See a static preview below. For the full interactive map, [click here](interactive-visuals/Injury_Clusters.html).**
+* **See a static preview below. For the full interactive map, [click here](https://drive.google.com/file/d/1qUJt0QXmxlKRTFvdjIEUrs_QmC24uAcq/view?usp=sharing).**
 
 ![Geo Cluster Screenshot](Visualizations/geo-clusters.png)
 
